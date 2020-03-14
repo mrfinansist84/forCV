@@ -1,0 +1,32 @@
+.pets {
+    color: #424242;
+    background-color: #f5f5f5;
+    background-image: url("../assets/img/bg-dogs.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.pets__info {
+    padding-top:100px;
+}
+.pets__subTitle {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pets__title {
+    font-size: 36px;
+    margin:10px;
+}
+
+.pets__text {
+    font-size: 15px;
+    line-height: 30px;
+    width: 370px;
+    margin: 0 auto 50px;
+}
+.pets__img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}

@@ -1,0 +1,33 @@
+<h1>Edit pet's card</h1>
+
+<form action="/petCards/edit" method="POST">
+    <div class="input-field">
+        <input id="title" name="title" type="text" class="validate" required value={{petCard.title}}>
+        <label for="title">Pet's naming</label>
+        <span class="helper-text" data-error="wrong"></span>
+    </div>
+    <div class="input-field">
+        <input id="price" name="price" type="number" class="validate" required value={{petCard.price}}>
+        <label for="price">Price</label>
+        <span class="helper-text" data-error="wrong"></span>
+    </div>
+    <div class="input-field">
+        <input id="image" name="image" type="text" class="validate" required value={{petCard.image}}>
+        <label for="image">URL picture</label>
+        <span class="helper-text" data-error="wrong"></span>
+    </div>
+    <div class="input-field">
+        <input id="description" name="description" type="text" class="validate" required value={{petCard.description}}>
+        <label for="description">Description</label>
+        <span class="helper-text" data-error="wrong"></span>
+    </div>
+    <input name="id" type="hidden" value={{petCard.id}}>
+    <input type="hidden" name="_csrf" value="{{csrf}}">
+    <button class="btn btn-primary">Edit pet's card</button>
+</form>
+
+<form action="/petCards/remove" method="POST">
+    <input name="id" type="hidden" value={{petCard.id}}>
+    <input type="hidden" name="_csrf" value="{{csrf}}">
+    <button class="btn red">Delete pet's card</button>
+</form>

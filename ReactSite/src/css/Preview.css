@@ -1,0 +1,25 @@
+.preview {
+    background-image: url("../assets/img/prev.jpg");
+    background-size: cover;
+    margin: -20px 0;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 30px;
+    font-family: 'din-2014', Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+.preview__header {
+    font-size: 80px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+.preview__subheader {
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+    margin: 0 0 10px;
+}

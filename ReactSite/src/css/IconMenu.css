@@ -1,0 +1,27 @@
+.header__iconMenu {
+    align-self: center;
+}
+.header__iconMenu-list {
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+
+}
+.header__iconMenu-item::after{
+    content: '';
+    display: block;
+    width: 25px;
+    height: 23px;
+    margin-right: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header__iconMenu-item--present::after {
+    background-image: url("../assets/img/present.png");
+}
+.header__iconMenu-item-search::after{
+    background-image: url("../assets/img/search.png");
+}
+.header__iconMenu-item--shop::after {
+    background-image: url("../assets/img/shop.png");
+}

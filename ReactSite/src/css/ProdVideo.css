@@ -1,0 +1,36 @@
+.prodVideo {
+     flex: 1 1 30%;
+    background-image: url("../assets/img/video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -400px;
+    outline: 2px dashed grey;
+    outline-offset: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+.prodVideo__headerTop, .prodVideo__headerBottom {
+    font-size: 50px;
+    font-family: 'Times New Roman', serif;
+    color:#e0ddd8;
+    opacity: 0.3;
+}
+.prodVideo__link {
+text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Times New Roman', serif;
+    position: relative;
+}
+.prodVideo__link:hover{
+    color: #bd1d2f;
+}
+.prodVideo__link-img {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 0 20px;
+    position: relative;
+    top: 20px;
+}

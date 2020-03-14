@@ -1,0 +1,22 @@
+.footerMenu {
+    line-height: 40px;
+    font-size: 15px;
+    font-family: 'din-2014-bold', Arial, Helvetica, sans-serif;
+    border-right: 1px solid #ffffff;
+    padding: 20px 100px;
+}
+.footerMenu:last-child{
+    border: none;
+}
+.footerMenu__list {
+    list-style: none;
+}
+
+.footerMenu__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footerMenu__link:hover {
+    text-decoration: underline;
+}

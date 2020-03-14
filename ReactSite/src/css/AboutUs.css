@@ -1,0 +1,18 @@
+.aboutUs{
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+
+.aboutUs__header {
+    font-family: 'Times New Roman', serif;
+    font-size: 120px;
+    color: #e0ddd8;
+    margin-top:0;
+}
+.aboutUs__mainBlock {
+    display: flex;
+height: 800px;
+    position: relative;
+    top: -140px;
+}

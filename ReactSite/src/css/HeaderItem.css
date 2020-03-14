@@ -1,0 +1,32 @@
+.headerItem {
+    width: 450px;
+    text-align: center;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.headerItem__text {
+    width: 70%;
+    padding: 10px;
+    font-size: 48px;
+    text-align: left;
+    border: 1px solid #d7cec1;
+    border-left: 1px solid transparent;
+    font-family: 'din-2014-bold', Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: #6a6b70;
+}
+
+.headerItem__date {
+    flex-wrap: wrap;
+    font-size: 55px;
+    width: 30%;
+    padding: 10px;
+    border-top: 1px solid #d7cec1;
+    border-bottom: 1px solid #d7cec1;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    color: #d7cec1;
+}

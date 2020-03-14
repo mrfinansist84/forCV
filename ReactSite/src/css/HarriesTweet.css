@@ -1,0 +1,15 @@
+.harriesTweet {
+    display: flex;
+
+}
+
+.harriesTweet__article {
+    margin: -60px;
+}
+
+.harriesTweet__text {
+    width: 40%;
+    margin: 0 auto;
+    line-height: 30px;
+    color: #424242;
+}

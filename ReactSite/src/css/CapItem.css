@@ -1,0 +1,84 @@
+.capItem {
+    font-family: 'din-2014-bold', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4e5055;
+    border: 2px dashed lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    position: relative;
+}
+.capItem__colors {
+list-style: none;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    padding: 0;
+}
+.capItem__color-item {
+margin-right: 15px;
+}
+.capItem__color-item:last-child{
+    margin-right: 0;
+}
+.black-color {
+    background-image: url("../assets/img/black.png");
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.orange-color {
+    background-image: url("../assets/img/orange.png");
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.grey-color {
+    background-image: url("../assets/img/grey.png");
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.ect-color {
+    background-image: url("../assets/img/ect.png");
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.brownDerby-color {
+    background-image: url("../assets/img/brownDerby-color.png");
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.capItem__price{
+    color: #bd1d2f;
+    margin-bottom: 10px;
+}
+.capItem__label {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    border-radius: 50%;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    color: #bd1d2f;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

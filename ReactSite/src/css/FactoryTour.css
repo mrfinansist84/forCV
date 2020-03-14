@@ -1,0 +1,23 @@
+.factoryTour {
+    flex: 1 1 30%;
+    background-image: url("../assets/img/factory.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: 2px dashed grey;
+    outline-offset: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.factoryTour__header {
+    font-size: 50px;
+    font-family: 'Times New Roman', serif;
+    color: #e0ddd8;
+    opacity: 0.3;
+}
+
+.factoryTour__logo {
+    margin-top: 30px;
+}

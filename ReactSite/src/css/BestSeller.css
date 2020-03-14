@@ -1,0 +1,11 @@
+.bestSeller {
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.bestSeller__capItem {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}

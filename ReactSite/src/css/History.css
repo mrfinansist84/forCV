@@ -1,0 +1,52 @@
+.history {
+    flex: 1 1 30%;
+    background-image: url("../assets/img/history.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.history__subheader {
+    font-size: 20px;
+
+}
+
+.history__header {
+    font-family: 'din-2014-bold', Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    margin-top: 5px;
+}
+
+.history__text {
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.history__links {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.history__linkItem {
+    text-decoration: none;
+    font-family: 'din-2014-bold', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.history__linkItem:nth-child(1), .history__linkItem:nth-child(2) {
+    border-right: none;
+}
+
+.history__linkItem:hover {
+    background-color: #ffffff;
+    color: #bd1d2f;
+}

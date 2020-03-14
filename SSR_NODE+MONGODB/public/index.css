@@ -1,0 +1,20 @@
+.nav-wrapper {
+    padding: 0 20px;
+}
+
+.action-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.auth {
+    padding-top: 1rem;
+}
+
+.description, .price {
+    padding: 10px 0;
+}
+
+.price {
+    font-size: 20px;
+}

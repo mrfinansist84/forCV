@@ -1,0 +1,34 @@
+<h1>Pet's shop</h1>
+
+{{#if petCards.length}}
+<div class="row">
+{{#each petCards}}
+    <div class="col s4">
+        <div class="card">
+            <div class="card-image">
+                <img src={{image}}>
+            </div>
+            <div class="card-content">
+                <span class="card-title">{{title}}</span>
+                <p class="price">{{price}}</p>
+                <p class="description">{{description}}</p>
+            </div>
+            <div class="card-action action-wrap">
+                <a href="/petCards/{{id}}">Open pet's card</a>
+                {{#if @root.isAuth}}
+                <a href="/petCards/{{id}}/edit?allow=true">Edit pet's card</a>
+                <form action="/card/add" method="POST">
+                    <input type="hidden" name="_csrf" value="{{@root.csrf}}">
+                    <input type="hidden" value="{{id}}" name="id">
+                    <button class="btn btn-primary" type="submit">BUY IT</button>
+                </form>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+
+{{/each}}
+</div>
+{{else}}
+<p>There is no pets</p>
+{{/if}}
